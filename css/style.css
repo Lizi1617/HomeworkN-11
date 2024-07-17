@@ -1,0 +1,72 @@
+/* container */
+.container {
+    width: min(100%, 1440px);
+    background-color: #1C5550;
+    margin: auto;
+}
+
+/* header */
+header {
+    height: 48px;
+    padding: 32px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_ul {
+    display: flex;
+    column-gap: 80px;
+}
+
+.navbar_li_link {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #DFD9D9;
+}
+
+button {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+    margin: 32px;
+    box-shadow: 0px 2px 4px -2px #DFD9D966 inset, 0px 2px 4px 0px #00000033;
+    background-color: #1C5550;
+}
+
+.fa-user {
+    color: #91B599;
+}
+
+.fa-cart-shopping {
+    color: #C3B97F;
+}
+/* aside */
+aside {
+    width: 320px;
+    margin: 48px 20px;
+    padding: 38px 115px 54px 40px;
+    line-height: 5px;
+    box-shadow: 0px 4px 4px 0px #00000033 inset, 0px -1px 4px 0px inset #DFD9D966;
+    color: #00000033;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #C3B97F;
+    margin-bottom: 16px;
+}
+
+.navbar_li_link2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #91B599;
+}
