@@ -2,7 +2,19 @@
 .container {
     width: min(100%, 1440px);
     background-color: #1C5550;
-    margin: auto;
+    margin: auto; 
+     padding: 40px;
+    /* display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 48px 340px 340px 146px 146px 220px;
+    grid-template-areas:
+        "HEADER HEADER HEADER HEADER"
+        "ASIDE"
+        "SECTION1 SECTION1"
+        "SECTION2"
+        "SECTION3"
+        "CARD1 CARD2 CARD3 CARD4";
+    gap: 40px 48px; */
 }
 
 /* header */
@@ -12,6 +24,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* grid-area: HEADER;
+    background-color: blueviolet; */
 }
 
 .navbar_ul {
@@ -27,7 +41,7 @@ header {
     color: #DFD9D9;
 }
 
-button {
+.button1 {
     width: 32px;
     height: 32px;
     border-radius: 4px;
@@ -44,6 +58,7 @@ button {
 .fa-cart-shopping {
     color: #C3B97F;
 }
+
 /* aside */
 aside {
     width: 320px;
@@ -52,6 +67,8 @@ aside {
     line-height: 5px;
     box-shadow: 0px 4px 4px 0px #00000033 inset, 0px -1px 4px 0px inset #DFD9D966;
     color: #00000033;
+    /* grid-area: ASIDE;
+    background-color: brown; */
 }
 
 h2 {
@@ -69,4 +86,59 @@ h2 {
     font-weight: 400;
     line-height: 25px;
     color: #91B599;
+}
+
+span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1C5550;
+}
+
+.button2 {
+    width: 97px;
+    height: 40px;
+    padding: 9px 8px 9px 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #DFD9D9;
+    background-color: #C3B97F;
+}
+
+.section1 {
+    /* grid-area: SECTION1;
+    background-color: bisque; */
+}
+
+.section2 {
+    /* grid-area: SECTION2;
+    background-color: cadetblue; */
+}
+
+.section3 {
+    /* grid-area: SECTION3;
+    background-color: coral; */
+}
+
+.card1 {
+    /* grid-area: CARD1;
+    background-color: darkgoldenrod; */
+}
+
+.card2 {
+    /* grid-area: CARD2;
+    background-color: crimson; */
+}
+
+.card3 {
+    /* grid-area: CARD3;
+    background-color: deeppink; */
+}
+
+.card4 {
+    /* grid-area: CARD4;
+    background-color: dodgerblue; */
 }
